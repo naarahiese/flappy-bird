@@ -185,7 +185,7 @@ function main() {
         gameOver = false;
         score = 0;
         credits.renderable = true;
-        scoreText.setText("DON'T\nTOUCH\nMY\nBIRDIE");
+        scoreText.setText("DON'T\nLET\nMY\nBIRDIE\nFALL");
         instText.setText("TOUCH TO FLAP\nBIRDIE WINGS");
         gameOverText.renderable = false;
         birdie.body.allowGravity = false;

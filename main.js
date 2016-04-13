@@ -100,7 +100,8 @@ function main() {
             10,
             '',
             {
-                font: '8px "Press Start 2P"',
+                font: '8px "Arial"',
+                //font: '8px "Press Start 2P"',
                 fill: '#fff',
                 align: 'center'
             }

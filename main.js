@@ -6,9 +6,7 @@ var SPAWN_RATE = 1 / 1.2;
 var OPENING = 134;
 
 WebFontConfig = {
-    google: { families: [ 'Press+Start+2P::latin' ] },
-    active: main
-};
+    google: { families: [ 'Press+Start+2P::latin' ] },};
 
 (function() {
     var wf = document.createElement('script');
@@ -91,7 +89,7 @@ function main() {
         game.world.height = screenHeight;
         // Draw bg
         bg = game.add.graphics(0, 0);
-        bg.beginFill(0xDDEEFF, 1);
+        bg.beginFill(0x00FF00, 1);
         bg.drawRect(0, 0, game.world.width, game.world.height);
         bg.endFill();
         // Credits 'yo

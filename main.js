@@ -6,7 +6,9 @@ var SPAWN_RATE = 1 / 1.2;
 var OPENING = 134;
 
 WebFontConfig = {
-    google: { families: [ 'Press+Start+2P::latin' ] },};
+    google: { families: [ 'Press+Start+2P::latin' ] },
+    active: main
+};
 
 (function() {
     var wf = document.createElement('script');

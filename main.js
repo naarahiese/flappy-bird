@@ -121,7 +121,7 @@ function main() {
         birdie.body.collideWorldBounds = true;
         birdie.body.gravity.y = GRAVITY;
         // Add fence
-        fence = game.add.tileSprite(0, game.world.height - 120, game.world.width, 120, 'fence');
+        fence = game.add.tileSprite(0, game.world.height - 160, game.world.width, 160, 'fence');
         fence.tileScale.setTo(2, 2);
         // Add score text
         scoreText = game.add.text(

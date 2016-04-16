@@ -49,7 +49,7 @@ function main() {
             },
             image: {
                 finger: ['assets/finger.png', 90, 323],
-                fence: ['assets/fence.png', 189, 60]
+                fence: ['assets/fence.png', 422, 98]
             },
             audio: {
                 flap: ['assets/flap.wav'],
